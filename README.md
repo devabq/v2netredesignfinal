@@ -1,1 +1,1 @@
-# Repositório contendo documentos e código fonte usados no redesign da empresa V2Net.
+# Repositório referente ao projeto de redesign do site da empresa V2Net.
