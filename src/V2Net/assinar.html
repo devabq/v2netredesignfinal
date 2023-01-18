@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Assinar </title>
+		<link rel = "stylesheet" href = "estilo.css">
+		<link rel = "stylesheet" href = "bootstrap.min.css">
+		<link rel="icon" href="imagens/icon.png" type="image/x-icon"/>
+		<script src = "bootstra.min.js"> </script>
+	</head>
+	<body>
+		<div id = "menu">
+			<a href = "index.html" class = "voltar"> <img src = "imagens/index.png" style = "max-width: 25px; margin-left: 10px; position: relative; top: -3px" title = "Voltar ao ínicio"> </a>
+			<a href = "assinar.html" class = "opcao" style = "margin-left: 20px;"> Assine Já </a>
+			<a href = "planos.html" class = "opcao"> Planos e Preços </a>
+			<a href = "serviços.html" class = "opcao"> Serviços </a>
+			<a href = "suporte.html" class = "opcao"> Suporte </a>
+			<a href = "login.html" class = "opcao"> Já sou Cliente </a>
+			<img src = "imagens/logov.png" style = "float: right; max-width: 100px; top: -10px; position: relative;">
+		</div>
+		<div id = "info">
+			<div class = "container-fluid">
+				<div class="row">
+					<div class="col">
+						<img src = "imagens/logo.png" class = "img">
+					</div>
+					<div class="col">
+						<p class = "titinfo"> Os melhores preços você só <br> encontra na V2! </p> <br><br><br><br><br>
+						<p class = "subtitinfo"> Não acredite em promesas mentirosas... Venha <br> conhecer a realidade de uma internet VELOZ. <br> Venha para V2NET </p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br><br><br><br>
+		<div class = "a-i">
+			<p class = "a-i-tit"> Assinatura </p>
+			<div class = "a-i-into">
+				<p class = "a-i-it"> <b> Formulário de Assinatura </b> </p>
+				<p class = "a-i-ist"> Faça ja sua assinatura em um dos nossos planos de acesso, nossa equipe ira lhe atender com o maximo de rapidez possivel, preencha o formulario abaixo e aguarde nosso contato via telefone. </p>
+				<br><br>
+				<div class = "a-f">
+					<form method = "POST" action = "assinar.html" id = "a-f-i" autocomplete = "off">
+						<label for = "nome" class = "a-f-d"> Nome Completo * </label> <input type = "text" id = "nome" class = "a-f-e" placeholder = "Digite seu nome" required oninvalid="this.setCustomValidity('Por favor, insira seu nome completo.')" oninput="setCustomValidity('')"/> <br><br>
+						<label for = "endereço" class = "a-f-d"> Endereço * </label> <input type = "text" id = "endereço" class = "a-f-e" placeholder = "Digite seu endereço" required oninvalid="this.setCustomValidity('Por favor, insira seu endereço.')" oninput="setCustomValidity('')" /> <br><br>
+						<label for = "bairro" class = "a-f-d"> Bairro * </label> <input type = "text" id = "bairro" class = "a-f-e" placeholder = "Digite seu bairro" required oninvalid="this.setCustomValidity('Por favor, insira seu bairro.')" oninput="setCustomValidity('')" /> <br><br>
+						<label for = "telefone" class = "a-f-d"> Telefone * </label> <input type = "tel" id = "telefone" class = "a-f-e" placeholder = "Digite seu telefone" required oninvalid="this.setCustomValidity('Por favor, insira seu telefone.')" oninput="setCustomValidity('')" /> <br><br>
+						<label for = "cidade" class = "a-f-d"> Cidade/UF * </label> <input type = "text" id = "cidade" class = "a-f-e" placeholder = "Digite sua cidade" required oninvalid="this.setCustomValidity('Por favor, insira sua cidade.')" oninput="setCustomValidity('')" /> <br><br><br>
+						<label class = "a-f-d"> Mensagem adicional </label> <textarea rows="8" cols="54" maxlength="500"> </textarea> <br><br>
+						<p style = "text-align: center;"> <button class = "a-i-s"> Assinar </button> </p>
+						<br><br>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div id = "rodape">
+			<strong> © 2015 - Copyright V2NET - Provedor de Internet. Todos Direitos Reservados. <br><br>
+			Atendimento Veloz: 0800-281-3417 - (84) 3417-3837 <br>
+			Email: suporte@v2net.com.br </strong>
+		</div>
+	</body>
+</html>

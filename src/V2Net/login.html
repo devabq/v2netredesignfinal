@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Login </title>
+		<link rel = "stylesheet" href = "estilo.css">
+		<link rel = "stylesheet" href = "bootstrap.min.css">
+		<link rel="icon" href="imagens/icon.png" type="image/x-icon"/>
+		<script src = "bootstra.min.js"> </script>
+	</head>
+	<body>
+		<div id = "menu">
+			<a href = "index.html" class = "voltar"> <img src = "imagens/index.png" style = "max-width: 25px; margin-left: 10px; position: relative; top: -3px" title = "Voltar ao ínicio"> </a>
+			<a href = "assinar.html" class = "opcao" style = "margin-left: 20px;"> Assine Já </a>
+			<a href = "planos.html" class = "opcao"> Planos e Preços </a>
+			<a href = "serviços.html" class = "opcao"> Serviços </a>
+			<a href = "suporte.html" class = "opcao"> Suporte </a>
+			<a href = "login.html" class = "opcao"> Já sou Cliente </a>
+			<img src = "imagens/logov.png" style = "float: right; max-width: 100px; top: -10px; position: relative;">
+		</div>
+		<br><br><br><br>
+		<div class = "l-i">
+			<p class = "l-i-tit"> Entrar </p>
+			<div class = "l-i-into">
+				<br><br><br>
+				<p style = "text-align: center;"> <img src = "imagens/logov.png"> </p>
+				<div class = "l-f">
+					<form method = "POST" action = "dashboard.html" id = "l-f-i" autocomplete = "off">
+						<label for = "codigo" class = "l-f-d" style = "float: left;"> Usuário: </label> <input type = "text" id = "codigo" placeholder = "Digite seu código de usuário" class = "l-f-e" maxlength="10" required oninvalid="this.setCustomValidity('Por favor, insira seu código de usuário.')" oninput="setCustomValidity('')"/> <br><br>
+						<label for = "senha" class = "l-f-d" style = "float: left;"> Senha: </label> <input type = "password" id = "senha" placeholder = "Digite sua senha" class = "l-f-e" required oninvalid="this.setCustomValidity('Por favor, insira sua senha.')" oninput="setCustomValidity('')"/> <br>
+						<p style = "text-align: center;"> <input type = "submit" class = "l-i-s" value = "Entrar"> </p>
+					</form>
+				</div>
+				<p style = "text-align: center;"> <a href = "cpf.html"> <button class = "l-i-s" style = "margin-top: -30px;"> Entrar usando CPF? </button> </a> </p>
+			</div>
+		</div>
+		<br><br><br><br>
+		<div id = "rodape">
+			<strong> © 2015 - Copyright V2NET - Provedor de Internet. Todos Direitos Reservados. <br><br>
+			Atendimento Veloz: 0800-281-3417 - (84) 3417-3837 <br>
+			Email: suporte@v2net.com.br </strong>
+		</div>
+	</body>
+</html>
